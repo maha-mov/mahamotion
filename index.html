@@ -63,9 +63,10 @@
               </div>
             </li>
           </ul>
-          <form data-scroll href="#contact-us" class="contact-btn form-inline my-2 my-lg-0">
+          <form 
+				data-scroll href="#contact-us" class="contact-btn form-inline my-2 my-lg-0">
             <!-- Contacgt Us Button -->
-            <button>Contact Us</button>
+            <button>back</button>
           </form>
         </div>
       </nav>
@@ -386,25 +387,24 @@
           <h2>Get in Touch</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 col-lg-6 email">
-          <input placeholder="Your email" type="email" id="email" pattern=".+@globex.com" size="30" required>
+	<form target="_blank" action="https://formsubmit.co/havizmaha@mail.com" method="POST">
+        <div class="form-group">
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                </div>
+                <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                </div>
+            </div>
         </div>
-        <div class="col-12 col-lg-6 email">
-          <input placeholder="Subject" type="subject" id="subject" size="30" required>
-        </div>
-      </div>
-      <div class="row">
         <div class="col-12 message">
-          <textarea id="message" name="message" rows="5" cols="1">Message here...</textarea>
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
         </div>
-        <div class="col-12">
-          <div class="hero-btns contact-btn">
-            <!-- Send Message Btn -->
-            <a href="#">Send Message</a>
-          </div>
-        </div>
-      </div>
+		<div class="hero-btns contact-btn" > 
+        		<button type="submit" class="hero-btns contact-btn btn-dark">Submit Form</button>
+		</div>
+    </form>
     </div>
   </section>
   <!-- FOOTER SECTION -->
@@ -413,7 +413,8 @@
       <div class="row">
         <div class="col-12">
 		  <ul class="social">
-            <li><a href="#"><i class="icofont-whatsapp"></i></a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://wa.me/6285697968264"><i class="icofont-whatsapp"></i></a></li>
+			<li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/maha.motion/"><i class="icofont-instagram"></i></a></li>
           </ul>
           <h5>maha.motion</h5>
           <h3>CREATIVITY ABOVE</h3>
