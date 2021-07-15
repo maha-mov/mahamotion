@@ -39,6 +39,10 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
+.container-fluid .container .video-container {
+    width: 100%;
+}
+
 a {
   font-weight: 600;
   color: #314584;
@@ -768,4 +772,3 @@ footer h6 {
     display: block;
   }
 }
-
